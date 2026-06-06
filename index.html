@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoodie Promos | Pro Promos for Underground Rappers</title>
+    <link rel="stylesheet" href="style.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo"><img src="images/hoodie-logo.png" alt="Hoodie Promos Logo"></a>
+            <a href="#order" class="nav-cta">Get yours</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>Your music deserves better than Canva.</h1>
+            <p class="subtitle">Professional promos for underground rappers. Flat $30 rate.</p>
+            <a href="#order" class="cta-button">Get yours</a>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="step-icon"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+                    </div>
+                    <h3>Tell us your vision</h3>
+                    <p>Share your music and the vibe you're going for.</p>
+                </div>
+                <div class="step-card">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="step-icon"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                    </div>
+                    <h3>We design it</h3>
+                    <p>Our pros create fire assets that cut through the noise.</p>
+                </div>
+                <div class="step-card">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="step-icon"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                    </div>
+                    <h3>Get your assets</h3>
+                    <p>Receive promo-ready graphics or video clips in 48h.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Recent Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/sample_album_cover.png" alt="Album Art">
+                    <div class="label">Album Art</div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/show-flyer-young-havoc.png" alt="Flyer">
+                    <div class="label">Flyer</div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/social-media-post-king-pesto.png" alt="Social Post">
+                    <div class="label">Social Post</div>
+                </div>
+                <div class="portfolio-item">
+                    <video src="images/promo-video-single.mp4" controls muted loop></video>
+                    <div class="label">Single Promo</div>
+                </div>
+                <div class="portfolio-item">
+                    <video src="images/promo-video-show.mp4" controls muted loop></video>
+                    <div class="label">Show Promo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing">
+        <div class="container">
+            <h2 class="section-title">Pricing</h2>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Single</h3>
+                    <div class="price">$30</div>
+                    <p>One content piece</p>
+                </div>
+                <div class="price-card highlighted">
+                    <h3>5-Pack</h3>
+                    <div class="price">$125</div>
+                    <p>Best for rollouts</p>
+                </div>
+                <div class="price-card">
+                    <h3>10-Pack</h3>
+                    <div class="price">$200</div>
+                    <p>Complete dominance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section id="order" class="order">
+        <div class="container">
+            <h2 class="section-title">Order Now</h2>
+            <form id="orderForm" class="order-form">
+                <div class="form-group">
+                    <label for="name">Stage Name</label>
+                    <input type="text" id="name" name="name" required placeholder="LIL RAPPER">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="you@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="type">Project Type</label>
+                    <select id="type" name="type" required>
+                        <option value="album cover">Album Cover</option>
+                        <option value="flyer">Flyer</option>
+                        <option value="social post">Social Post</option>
+                        <option value="video">Video</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" required placeholder="Tell us about your vibe..."></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Hoodie Promos — for the underground</p>
+            <div class="social-links">
+                <a href="https://instagram.com/hoodiepromos" target="_blank">Instagram</a>
+                <a href="https://twitter.com/hoodiepromos" target="_blank">Twitter</a>
+                <a href="mailto:work@hoodiepromos.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.min.js"></script>
+</body>
+</html>
